@@ -6,30 +6,141 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		type="text.css" />
-	<link rel=stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-		type="text" />
-	<!--Bootstrap-->
+		type="text/css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!--previous line of html was added when previous bootstrap link didn't work-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+		type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Robin Collins Portfolio</title>
 </head>
 
 <body>
 	<header>
+
+		<div class="row no-gutters">
+			<div class="col">
+				<ul id="nav" class="list-inline menucontainer">
+					<li class="col-5 col-sm-2 ui-menu-color-home list-inline-item menuitem">
+						<a href="#"
+							class="hvr-bounce-to-top"><i class="fa fa-home"  aria-hidden="true"></i><span>Home</span></a>
+					</li>
+					<li class="col-5 col-sm-2 ui-menu-color-about list-inline-item menuitem">
+						<a href="#"
+							class="hvr-bounce-to-top"><i class="fa fa-address-card" aria-hidden="true"></i><span>About</span></a>
+					</li>
+					<li class="col-5 col-sm-2 ui-menu-color-portfolio list-inline-item menuitem">
+						<a href="#"
+							class="hvr-bounce-to-top"><i class="fa fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a>
+					</li>
+					<li class="col-5 col-sm-2 ui-menu-color-contact list-inline-item menuitem">
+						<a href="#"
+							class="hvr-bounce-to-top"><i class="fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a>
+					</li>
+					<li class="col-5 col-sm-2 ui-menu-color-download list-inline-item menuitem">
+						<a href="#"
+							class="hvr-bounce-to-top"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
 		<div class="row">
-			<div class="column">
+			<a class="col-6 md-2" href="02-index.html"> </a>
+			<div class="col-md-8">
 				<h1 class="name">Robin Collins</h1>
 				<h2 class="title">Full Stack Developer</h2>
 			</div>
 		</div>
-		<section>
-
-		</section>
 	</header>
-    
-	<footer>
-		<p>© 2020 Robin Collins - Full Stack Developer</p>
-	</footer>
+
+	<div class="page-titles">
+		<section>
+			<h5>Home</h5>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+				laborum
+			</p>
+		</section>
+		<section>
+			<h5>About</h5>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+				laborum
+			</p>
+		</section>
+		<Section>
+			<h5>Portfolio</h5>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+				dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+				laborum
+			</p>
+		</Section>
+		<section>
+			<h5>Contact</h5>
+			<p>Add Form Here!</p>
+		</section>
+		<section>
+			<h5>Download CV</h5>
+			<!--This area may not be necessary as could open directly to new tab PDF format CV-->
+		</section>
+
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<h6>Click here to download CV</h6>
+					<p class="inline-block">Download link.
+					<a href="#" target="_blank" class="cv-pdf">
+					<i class="fa fa-download" aria-hidden="true"></i>
+					<span class=sr-only"></span></a></p>
+				</div>
+				<div class="col-sm-4">
+					<h6>© 2020 Robin Collins - Full Stack Developer</h6> 
+                    <!--THIS COPYRIGHT SECTION NEEDS TO GO ON SEPERATE ROW BELOW TO DISPLAY CORRECTLY WITH MOBILE FIRST-->
+				</div>
+				<div class="col-sm-4">
+					<h6>Social</h6>
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+                        <li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+								<span class="sr-only">Linkedin</span>
+							</a>
+						</li>
+                        <li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-github-square" aria-hidden="true"></i>
+								<span class="sr-only">Github</span>
+							</a>
+						</li>
+                        <li class="list-inline-item">
+							<a target="_blank" href="#">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+				</div>
+			</div>
+		</footer>
 </body>
 
 </html>

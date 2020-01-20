@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700');
+
+/*    ------------------------Colours?   */
+
+
+header {
+    margin: 0;
+    background-color: #006db3;
+    padding: 6px;
+    }
+
+.heading {
+    margin-left: 30px;
+}
+
+.name {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 10px;
+}  
+
+.title {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 110;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 10px;
+}
+
+/*    ------------------------Navigation   */
+
+/* .list-inline {
+    color: #fff;
+   /* text-align: center; }  switched off as made no difference */
+
+/* BOUNCE WIPES REQUIRE A 5% RADIUS TO MATCH THAT OF NAVIGATION */
+
+
+/*    ------------------------Navigation styles   */
+
+.ui-menu-color-home {
+    background-color: #d50000;
+    color:#fff;
+    letter-spacing: 6px;
+    border-radius: 5%;
+}
+
+.ui-menu-color-about {
+    background-color: #ffc107;
+    color:#fff;
+    letter-spacing: 6px;
+    border-radius: 5%;
+}
+
+.ui-menu-color-portfolio {
+    background-color: #d50000;
+    color:#fff;
+    letter-spacing: 6px;
+    border-radius: 5%;
+}
+
+.ui-menu-color-contact {
+    background-color: #ffc107;
+    color:#fff;
+    letter-spacing: 6px;
+    border-radius: 5%;
+}
+
+.ui-menu-color-download {
+    background-color: #d50000;
+    color:#fff;
+    letter-spacing: 6px;
+    border-radius: 5%;
+}
+
+.list-inline-item:not(:last-child)
+{
+    margin:0%;
+}
+
+.menucontainer {
+    font-size: 0px;
+    float: center;
+}
+
+#nav {
+    margin: 0%;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0;
+    /*    float: right; removed due to changing nav order  */
+    color: #fff;
+}
+
+.menuitem {
+    height: 60px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color:#fff;
+    height: 60px;
+}
+
+.menuitem a i {
+    padding-top: 10px;
+    display: block;
+    color: #fff;
+    font-size: 16;
+}
+
+menuitem span {
+    display: block;
+    width:100%;
+    padding-top: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+/*    ------------------------Section   */
+
+section {
+    margin: 0;
+    background-color: #039be5;
+    padding: 6px;
+    color: #fff;
+}
+
+/*    ------------------------H4 page headings   */
+
+.page-titles {
+    font-family: "Roboto" , sans-serif;
+}
+
+
+
+/*    ------------------------Footer   */
+
+footer {
+    font-family: "Roboto" , sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    background-color: #006db3;
+    padding: 12px;
+    color:#039be5;
+    min-height: 120px;
+}
+
+/*    ------------------------Hover .css   */
+
+/*   .hvr-bounce-to-top:before {
+    background: rgba(add numbers here for alternate color of hover state);
+    height: 120px; }   */
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6, {
+        margin: 0px;
+    }
+
+.hvr-sweep-to-bottom:before:hover {
+    /* back ground change here if required currently default blue same as BG colour */
+    border-radius: 20%;
+    /* this not working and require a fix still */
+}
+
+/*   .cv-pdf i Doesn't appear to be working remove this note when fixed. width, height, padding, 
+border-radius all added with no change   */
+
+    .cv-pdf i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        font-size: 18;
+        text-align: center;
+        padding-left: 5px;
+        color: #039be3;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+    }
+
+    .cv-pdf i:hover {
+        color: #d50000;
+    }
+
+    .social-links li a i {
+        width: 32px;
+        height: 32px;
+        padding: 12px 0;
+        border-radius: 20%;
+        font-size: 13px;
+        line-height: 7px;
+        text-align: center;
+        color: #039be3;
+        background:#ffc107;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+    }
+
+    .social-links li a i:hover {
+        background: #d50000
+    }

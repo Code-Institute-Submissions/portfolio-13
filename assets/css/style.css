@@ -85,11 +85,12 @@ header {
 
 .menucontainer {
     font-size: 0px;
-    float: center;
+    text-align: center;
 }
 
 #nav {
     margin: 0%;
+    
 }
 
 #nav li {
@@ -254,3 +255,20 @@ border-radius all added with no change   */
         max-width: 50%;
     }
     }
+
+  .row-table {
+      display: table;
+  }
+
+  .section-column {
+      display: table-cell;
+      padding: 0 30px 30px;
+      float: none;
+  }
+
+  ,section-heading {
+      font-family: "Roboto" , sans-serif;
+      font-weight: 300;
+      margin-top: 25px;
+      margin-bottom: 40px;
+  }

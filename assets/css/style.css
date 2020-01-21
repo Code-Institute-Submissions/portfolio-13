@@ -266,9 +266,13 @@ border-radius all added with no change   */
       float: none;
   }
 
-  ,section-heading {
+  .section-heading {
       font-family: "Roboto" , sans-serif;
       font-weight: 300;
       margin-top: 25px;
       margin-bottom: 40px;
+  }
+
+  .section h5 i {
+      padding:25px;
   }

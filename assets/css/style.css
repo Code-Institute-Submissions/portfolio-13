@@ -20,6 +20,7 @@ header {
     margin-top: 20px;
     color: #fff;
     letter-spacing: 10px;
+    text-align: center;
 }  
 
 .title {
@@ -30,6 +31,7 @@ header {
     margin-bottom: 20px;
     color: #fff;
     letter-spacing: 10px;
+    text-align: center;
 }
 
 /*    ------------------------Navigation   */
@@ -236,6 +238,7 @@ border-radius all added with no change   */
         padding-top: auto;
         margin: 0 auto;
         max-width: 70%;
+        text-align: center;
     }
 
     button[type="submit"] {
@@ -275,4 +278,9 @@ border-radius all added with no change   */
 
   .section h5 i {
       padding:25px;
+  }
+
+  .img {
+      border:#006db3;
+      
   }

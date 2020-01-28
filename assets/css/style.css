@@ -16,7 +16,7 @@ header {
 .name {
     font-family: "Roboto" , sans-serif;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 20px;
     color: #fff;
     letter-spacing: 10px;
@@ -26,7 +26,7 @@ header {
 .title {
     font-family: "Roboto" , sans-serif;
     font-weight: 110;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fff;
@@ -135,12 +135,60 @@ menuitem span {
 
 /*    ------------------------Section   */
 
-section {
+/* section {
     margin: 0;
     background-color: #039be5;
     padding: 6px;
     color: #fff;
+} */ 
+
+/*    ------------------------page background images   */
+
+.home-background-image {
+    background: url("../images/tor2009-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all 3.5s ease-in;
+    -moz-transition: all 3.5s ease-in;
+    -webkit-transition: all 3.5s ease-in;
 }
+
+.about-background-image {
+    background: url("../images/roots-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all 3.5s ease-in;
+    -moz-transition: all 3.5s ease-in;
+    -webkit-transition: all 3.5s ease-in;
+}
+
+.portfolio-background-image {
+    background: url("../images/bwroof-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all 3.5s ease-in;
+    -moz-transition: all 3.5s ease-in;
+    -webkit-transition: all 3.5s ease-in;
+}
+
+.contact-background-image {
+    background: url("../images/persephone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all 3.5s ease-in;
+    -moz-transition: all 3.5s ease-in;
+    -webkit-transition: all 3.5s ease-in;
+}
+
+
 
 /*    ------------------------H4 page headings   */
 
@@ -159,7 +207,7 @@ footer {
     margin: 0;
     background-color: #006db3;
     padding: 12px;
-    color:#039be5;
+    color:#fff;
     min-height: 120px;
 }
 
@@ -180,7 +228,9 @@ footer {
 
 .hvr-sweep-to-bottom:before:hover {
     /* back ground change here if required currently default blue same as BG colour */
+    background: rgba(6, 2, 252, 0.2);
     border-radius: 20%;
+    height: 120px;
     /* this not working and require a fix still */
 }
 
@@ -194,7 +244,7 @@ border-radius all added with no change   */
         font-size: 18;
         text-align: center;
         padding-left: 5px;
-        color: #039be3;
+        color:  #ffc107;
         transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -webkit-transition: all 0.4s ease-in-out;
@@ -244,7 +294,7 @@ border-radius all added with no change   */
     button[type="submit"] {
         margin-top: 15px;
         margin-bottom: 20px;
-        color: #d50000;
+        color: #006db3;
         background-color: #ffc107;
     }
 
@@ -281,6 +331,10 @@ border-radius all added with no change   */
   }
 
 img {
-    width: 500px;
-    border: 6px solid #006db3;
+    width: 320px;
+   /* border: 6px solid #006db3; */
+}
+
+body {
+    font-size: 24px;
 }

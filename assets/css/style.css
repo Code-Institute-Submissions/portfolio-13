@@ -7,6 +7,11 @@ header {
     margin: 0;
     background-color: #006db3;
     padding: 6px;
+    min-height: 100px;
+    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 30;
     }
 
 .heading {
@@ -25,7 +30,7 @@ header {
 
 .title {
     font-family: "Roboto" , sans-serif;
-    font-weight: 110;
+    font-weight: 100;
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -34,11 +39,29 @@ header {
     text-align: center;
 }
 
+#home {
+    color: #fff;
+}
+
+#about {
+    color: #fff;
+}
+
+#portfolio {
+    color: #fff;
+}
+#contact {
+    color: #fff;
+}
+/*
+.bg-primary {
+    color: #fff;
+} */
+
 /*    ------------------------Navigation   */
 
-/* .list-inline {
-    color: #fff;
-   /* text-align: center; }  switched off as made no difference */
+
+
 
 /* BOUNCE WIPES REQUIRE A 5% RADIUS TO MATCH THAT OF NAVIGATION */
 
@@ -46,36 +69,36 @@ header {
 /*    ------------------------Navigation styles   */
 
 .ui-menu-color-home {
-    background-color: #d50000;
-    color:#fff;
+    background-color: #ffc107;
+    color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
 }
 
 .ui-menu-color-about {
     background-color: #ffc107;
-    color:#fff;
+    color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
 }
 
 .ui-menu-color-portfolio {
-    background-color: #d50000;
-    color:#fff;
+    background-color:#ffc107;
+    color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
-}
+    }
 
 .ui-menu-color-contact {
     background-color: #ffc107;
-    color:#fff;
+    color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
-}
+    }
 
 .ui-menu-color-download {
-    background-color: #d50000;
-    color:#fff;
+    background-color: #ffc107;
+    color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
 }
@@ -87,23 +110,22 @@ header {
 
 .menucontainer {
     font-size: 0px;
-    text-align: center;
+    width: 100%;
 }
 
 #nav {
     margin: 0%;
-    
-}
+    }
 
 #nav li {
     font-size: 16px;
     padding: 0;
-    /*    float: right; removed due to changing nav order  */
     color: #fff;
 }
 
+
 .menuitem {
-    height: 60px;
+    height: 100%;
     text-align: center;
     padding: 0;
 }
@@ -111,15 +133,14 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color:#fff;
+    color:#006db3;;
     height: 60px;
 }
 
 .menuitem a i {
     padding-top: 10px;
     display: block;
-    color: #fff;
-    font-size: 16;
+    font-size: 14px;
 }
 
 menuitem span {
@@ -132,6 +153,16 @@ menuitem span {
     letter-spacing: 2px;
 }
 
+/* Alternate navigation colours 30/01/2020 remove this comment and old navigation if successful - update .bg-light and .nav-links dont work */
+
+.bg-primary {
+    background-color: #ffc107;
+    color: #006cb3
+}
+
+.nav-links {
+    color: #006cb3;
+}
 
 /*    ------------------------Section   */
 
@@ -150,9 +181,9 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-in;
-    -moz-transition: all 3.5s ease-in;
-    -webkit-transition: all 3.5s ease-in;
+    transition: all 3.5s ease-out;
+    -moz-transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out;
 }
 
 .about-background-image {
@@ -161,10 +192,11 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-in;
-    -moz-transition: all 3.5s ease-in;
-    -webkit-transition: all 3.5s ease-in;
+    transition: all 3.5s ease-out;
+    -moz-transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out;
 }
+
 
 .portfolio-background-image {
     background: url("../images/bwroof-1.png");
@@ -172,9 +204,9 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-in;
-    -moz-transition: all 3.5s ease-in;
-    -webkit-transition: all 3.5s ease-in;
+    transition: all 3.5s ease-out;
+    -moz-transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out;
 }
 
 .contact-background-image {
@@ -183,9 +215,9 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-in;
-    -moz-transition: all 3.5s ease-in;
-    -webkit-transition: all 3.5s ease-in;
+    transition: all 3.5s ease-out;
+    -moz-transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out;
 }
 
 
@@ -208,7 +240,13 @@ footer {
     background-color: #006db3;
     padding: 12px;
     color:#fff;
-    min-height: 120px;
+    min-height: 100px;
+    position: sticky;
+    bottom: 0;
+}
+
+.copyright {
+    text-align: center;
 }
 
 /*    ------------------------Hover .css   */
@@ -250,7 +288,7 @@ border-radius all added with no change   */
         -webkit-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
     }
-
+/* below link can be removed as not working */
     .cv-pdf i:hover {
         color: #d50000;
     }
@@ -324,11 +362,13 @@ border-radius all added with no change   */
       font-weight: 300;
       margin-top: 25px;
       margin-bottom: 40px;
+      color: #fff;
   }
-
+/*
   .section h5 i {
       padding:25px;
-  }
+      color: #fff;
+  } */
 
 img {
     width: 320px;
@@ -337,4 +377,7 @@ img {
 
 body {
     font-size: 24px;
+    z-index: 20;
+    position: relative
 }
+

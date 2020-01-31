@@ -58,10 +58,25 @@ header {
     color: #fff;
 } */
 
-/*    ------------------------Navigation   */
+/*    ------------------------Navigation for New Nav input  
+
+a.nav-link {
+    color:#3f4950;
+}
+
+a.navbar-brand {
+    color:#fff;
+}
+
+.fa-home:before {
+    font-size: 16px;
+}
 
 
-
+button.navbar-toggler-icon {
+    color:#fff;
+}
+ */
 
 /* BOUNCE WIPES REQUIRE A 5% RADIUS TO MATCH THAT OF NAVIGATION */
 

@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700');
 
-/*    ------------------------Colours?   */
-
+/*    ------------------------Colours   */
 
 header {
     margin: 0;
     background-color: #006db3;
     padding: 6px;
     min-height: 100px;
-    position: fixed;
     position: sticky;
+    position: -webkit-sticky; /* added when issues arose on iphone not display image content still not working 01/02/20*/
+    position: -moz-sticky;
+    position: -o-sticky;
     top: 0;
     z-index: 30;
     }
@@ -53,6 +54,11 @@ header {
 #contact {
     color: #fff;
 }
+
+h5 {
+    line-height: 100px;
+}
+
 /*
 .bg-primary {
     color: #fff;
@@ -161,12 +167,12 @@ button.navbar-toggler-icon {
 menuitem span {
     display: block;
     width:100%;
-    padding-top: center;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 2px;
 }
+
 
 /* Alternate navigation colours 30/01/2020 remove this comment and old navigation if successful - update .bg-light and .nav-links dont work */
 
@@ -179,16 +185,6 @@ menuitem span {
     color: #006cb3;
 }
 
-/*    ------------------------Section   */
-
-/* section {
-    margin: 0;
-    background-color: #039be5;
-    padding: 6px;
-    color: #fff;
-} */ 
-
-/*    ------------------------page background images   */
 
 .home-background-image {
     background: url("../images/tor2009-1.png");
@@ -257,6 +253,7 @@ footer {
     color:#fff;
     min-height: 100px;
     position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
 }
 
@@ -269,15 +266,17 @@ footer {
 /*   .hvr-bounce-to-top:before {
     background: rgba(add numbers here for alternate color of hover state);
     height: 120px; }   */
-
+/*
     h1,
     h2,
     h3,
     h4,
     h5,
     h6, {
-        margin: 0px;
+        margin: 120px;
     }
+*/
+
 
 .hvr-sweep-to-bottom:before:hover {
     /* back ground change here if required currently default blue same as BG colour */
@@ -332,9 +331,9 @@ border-radius all added with no change   */
 
     .contact-heading {
         font-family: "Roboto" , sans-serif;
-        font-weight: 300;
+        /*font-weight: 300;
         margin-top: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 20px;*/
     }
 
     .center-form {
@@ -374,9 +373,11 @@ border-radius all added with no change   */
 
   .section-heading {
       font-family: "Roboto" , sans-serif;
+      
+      /* 
       font-weight: 300;
       margin-top: 25px;
-      margin-bottom: 40px;
+      margin-bottom: 40px; */
       color: #fff;
   }
 /*
@@ -385,12 +386,20 @@ border-radius all added with no change   */
       color: #fff;
   } */
 
+/* -------------------------------- Image display  */
+
 img {
     width: 320px;
    /* border: 6px solid #006db3; */
 }
 
+.spartan {
+      float: left;
+      padding: 10px;
+}     
+
 body {
+    font-family: "Roboto" , sans-serif;
     font-size: 24px;
     z-index: 20;
     position: relative

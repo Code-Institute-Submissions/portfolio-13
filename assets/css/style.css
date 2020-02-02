@@ -45,7 +45,11 @@ header {
 }
 
 #about {
-    color: #fff;
+    color: #423434;
+}
+
+section #about {
+    padding-top: 300px;
 }
 
 #portfolio {
@@ -192,9 +196,9 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-out;
+ /*   transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out;
+    -webkit-transition: all 3.5s ease-out; */
 }
 
 .about-background-image {
@@ -203,10 +207,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-out;
+ /*   transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
     -webkit-transition: all 3.5s ease-out;
-}
+} */ }
 
 
 .portfolio-background-image {
@@ -215,10 +219,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-out;
+  /*  transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
     -webkit-transition: all 3.5s ease-out;
-}
+} */ }
 
 .contact-background-image {
     background: url("../images/persephone.png");
@@ -226,10 +230,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    transition: all 3.5s ease-out;
+   /* transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
     -webkit-transition: all 3.5s ease-out;
-}
+} */ }
 
 
 
@@ -405,3 +409,6 @@ body {
     position: relative
 }
 
+section#about p {
+    background: gainsboro;
+}

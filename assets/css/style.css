@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700');
 
-/*    ------------------------Colours   */
+/*    ------------------------Header information   */
 
 header {
     margin: 0;
@@ -8,7 +8,7 @@ header {
     padding: 6px;
     min-height: 100px;
     position: sticky;
-    position: -webkit-sticky; /* added when issues arose on iphone not display image content still not working 01/02/20*/
+    position: -webkit-sticky; 
     position: -moz-sticky;
     position: -o-sticky;
     top: 0;
@@ -23,9 +23,10 @@ header {
     font-family: "Roboto" , sans-serif;
     font-weight: 100;
     font-size: 30px;
-    margin-top: 20px;
+   margin-top: 6px; 
     color: #fff;
     letter-spacing: 10px;
+    padding-left: 30px;
     text-align: center;
     float: left;
 }  
@@ -34,64 +35,46 @@ header {
     font-family: "Roboto" , sans-serif;
     font-weight: 100;
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 6px;
+    /* margin-bottom: 20px; */
     color: #fff;
     letter-spacing: 10px;
+    padding-right: 30px;
     text-align: center;
-    float: right;
+    Float: Right;
 }
 
+/*    ------------------------Navigation links   */
+
 #home {
-    color: #fff;
+    color:#392525;
 }
 
 #about {
     color: #423434;
 }
 
-section #about {
-    padding-top: 300px;
-}
-
 #portfolio {
-    color: #fff;
+    color: #423434;
 }
 #contact {
-    color: #fff;
+    color: #423434;
 }
+
+/*    ------------------------New Page Headings */
+
+h4 {
+    line-height: 100px;
+    text-align: center;
+    color: #423434;
+}
+
+/*    ------------------------ Old Navigation styles - Remove before submit   */
 
 h5 {
     line-height: 100px;
+    text-align: center;
 }
-
-/*
-.bg-primary {
-    color: #fff;
-} */
-
-/*    ------------------------Navigation for New Nav input  
-
-a.nav-link {
-    color:#3f4950;
-}
-
-a.navbar-brand {
-    color:#fff;
-}
-
-.fa-home:before {
-    font-size: 16px;
-}
-
-
-button.navbar-toggler-icon {
-    color:#fff;
-}
- */
-
-/* BOUNCE WIPES REQUIRE A 5% RADIUS TO MATCH THAT OF NAVIGATION */
-
 
 /*    ------------------------Navigation styles   */
 
@@ -102,6 +85,15 @@ button.navbar-toggler-icon {
     border-radius: 5%;
 }
 
+/*    ------------------------Navigation logo image   */
+
+img.d-inline-block  {
+    height: 30px;
+    width: 30px;
+/*    ------------------------ Previous Navigation save for later project   */
+
+}
+/* old nav styles
 .ui-menu-color-about {
     background-color: #ffc107;
     color:#006db3;
@@ -128,7 +120,7 @@ button.navbar-toggler-icon {
     color:#006db3;
     letter-spacing: 6px;
     border-radius: 5%;
-}
+} */
 
 .list-inline-item:not(:last-child)
 {
@@ -193,7 +185,7 @@ menuitem span {
 
 
 .home-background-image {
-    background: url("../images/tor2009-1.png");
+    background: url("../images/the_man.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,10 +201,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
- /*   transition: all 3.5s ease-out;
+  /*transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
     -webkit-transition: all 3.5s ease-out;
-} */ }
+ }*/ }
 
 
 .portfolio-background-image {
@@ -221,10 +213,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-  /*  transition: all 3.5s ease-out;
+  /* transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out;
-} */ }
+    -webkit-transition: all 3.5s ease-out; */
+ }
 
 .contact-background-image {
     background: url("../images/persephone.png");
@@ -232,11 +224,10 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-   /* transition: all 3.5s ease-out;
+  /* transition: all 3.5s ease-out;
     -moz-transition: all 3.5s ease-out;
     -webkit-transition: all 3.5s ease-out;
-} */ }
-
+ } */ }
 
 
 /*    ------------------------H4 page headings   */
@@ -269,21 +260,6 @@ footer {
 
 /*    ------------------------Hover .css   */
 
-/*   .hvr-bounce-to-top:before {
-    background: rgba(add numbers here for alternate color of hover state);
-    height: 120px; }   */
-/*
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6, {
-        margin: 120px;
-    }
-*/
-
-
 .hvr-sweep-to-bottom:before:hover {
     /* back ground change here if required currently default blue same as BG colour */
     background: rgba(6, 2, 252, 0.2);
@@ -308,7 +284,7 @@ border-radius all added with no change   */
         -webkit-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
     }
-/* below link can be removed as not working */
+
     .cv-pdf i:hover {
         color: #d50000;
     }
@@ -337,9 +313,6 @@ border-radius all added with no change   */
 
     .contact-heading {
         font-family: "Roboto" , sans-serif;
-        /*font-weight: 300;
-        margin-top: 25px;
-        margin-bottom: 20px;*/
     }
 
     .center-form {
@@ -379,20 +352,7 @@ border-radius all added with no change   */
 
   .section-heading {
       font-family: "Roboto" , sans-serif;
-      
-      /* 
-      font-weight: 300;
-      margin-top: 25px;
-      margin-bottom: 40px; */
-      color: #fff;
   }
-/*
-  .section h5 i {
-      padding:25px;
-      color: #fff;
-  } */
-
-/* -------------------------------- Image display  */
 
 img {
     width: 320px;
@@ -413,4 +373,5 @@ body {
 
 section#about p {
     background: gainsboro;
+    padding: 6px;
 }

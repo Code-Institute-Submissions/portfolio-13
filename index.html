@@ -15,45 +15,52 @@
 
 <body>
     <header>
-    <div class="row">
-            <div class="col-12 col-sm-6 col-md-4 col-lg-12">
-                <h1 class="name">Robin Collins</h1>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+                
 
-                <h2 class="title">Full Stack Developer</h2>
+                <!-- below navigation is taken from bootstrap trying to find better Navigation but both have their issues-->
+
+                <nav class="navbar navbar-expand-lg navbar-secondary bg-warning navbar navbar-dark">
+                    <a class="navbar-brand" href="#index.html">RNC Media</a>
+                    <img src="assets/images/rncmedia_icon.png" width="30" height="30" class="d-inline-block align-top" alt="RNC_logo">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link hvr-bounce-to-top" href="index.html"><i class="fa fa-home"  aria-hidden="true"></i>Home<span class="sr-only">(current)</span></a>
+                                <!--remove sr-only?-->
+                            </li>
+                            <li class="nav-item hvr-bounce-to-top">
+                                <a class="nav-link" href="#about"><i class="fa fa-address-card" aria-hidden="true"></i>About</a>
+                            </li>
+                            <li class="nav-item hvr-bounce-to-top">
+                                <a class="nav-link" href="#portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</a>
+                            </li>
+                            <li class="nav-item hvr-bounce-to-top">
+                                <a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a>
+                            </li>
+                            <li class="nav-item hvr-bounce-to-top">
+                                <a class="nav-link" href="assets/cv/cv200120Robin.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Download CV</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
-        
-        <!-- below navigation is taken from bootstrap trying to find better Navigation but both have their issues-->
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+            <h1 class="name">Robin Collins</h1>
+            <h2 class="title">Full Stack Developer</h2>
+            </div>
+        </div>
 
-        <nav class="navbar navbar-expand-lg navbar-secondary bg-warning navbar navbar-dark bg-dark">
-  <a class="navbar-brand" href="#index.html">RNC Media</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link hvr-bounce-to-top" href="index.html"><i class="fa fa-home"  aria-hidden="true"></i>Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item hvr-bounce-to-top">
-        <a class="nav-link" href="#about"><i class="fa fa-address-card" aria-hidden="true"></i>About</a>
-      </li>
-      <li class="nav-item hvr-bounce-to-top">
-        <a class="nav-link" href="#portfolio"><i class="fa fa-briefcase" aria-hidden="true"></i>Portfolio</a>
-      </li>
-      <li class="nav-item hvr-bounce-to-top">
-        <a class="nav-link" href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i>Contact</a>
-      </li>
-      <li class="nav-item hvr-bounce-to-top">
-        <a class="nav-link" href="assets/cv/cv200120Robin.pdf" target="_blank"><i class="fa fa-download" aria-hidden="true"></i>Download CV</a>
-      </li>
-    </ul>
-  </div>
-</nav> 
-
+        <!--
         <div class="row no-gutters">
             <div class="col">
-            
+
                 <ul id="nav" class="list-inline menucontainer nav">
                     <li class="col-12 col-sm-6 col-md-6 col-lg-2 ui-menu-color-home list-inline-item menuitem">
                         <a href="index.html" class="hvr-bounce-to-top"><i class="fa fa-home"  aria-hidden="true"></i><span>Home</span></a>
@@ -73,7 +80,7 @@
                 </ul>
 
             </div>
-        </div>
+        </div> -->
     </header>
     <div class="page-titles"></div>
     <section class="container-fluid home-background-image" id="home">
@@ -81,19 +88,17 @@
             <div class="col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
-                        <h5 class="section-heading uppercase">Home</h5>
+                        <h4 class="section-heading uppercase">Home</h4>
                         <p>
-                            A Full Stack Developer is a person that can develop client and Server Software.
-                            In addition to mastering HTMl (Hyper Text Mark up Language) and CSS (Cascading Style Sheets) he or she must also know the folling:
+                            A Full Stack Developer is a person that can develop client and Server Software. In addition to mastering HTML (Hyper Text Mark-up Language) and CSS (Cascading Style Sheets) he or she must also know the following:
                         </p>
 
                         <p>
-                        Program a browser <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>JQuery</strong> or <strong>Vue</strong>. Program a server <strong>PHP</strong>, <strong>Phython</strong> or <strong>Node</strong>.
-                         Also program a database <strong>SQL</strong>, <strong>SQLite</strong> or <strong>MongoDB</strong>
+                            Program a browser <strong>JavaScript</strong>, <strong>Angular</strong>, <strong>JQuery</strong> or <strong>Vue</strong>. Program a server <strong>PHP</strong>, <strong>Python</strong> or <strong>Node</strong>. Also program a database <strong>SQL</strong>, <strong>SQLite</strong> or <strong>MongoDB</strong>
                         </p>
 
                         <p>
-                        With this Knowledge I'd like to think I have the skills to aid and help you on your quest moving forward to both yours and my success.
+                            With this Knowledge I'd like to think I have the skills to aid and help you on your quest moving forward to both yours and my success.
                         </p>
                     </div>
                 </div>
@@ -102,22 +107,20 @@
     </section>
     <section class="container-fluid about-background-image" id="about">
         <div class="row row-table">
-            <div class="col-md-8 bg-color-three-reasons section-column">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
-                        <h5>About</h5>
+                        <h4>About</h4>
 
                         <!-- Align text around image-->
                         <img src="assets/images/spartanrobin.png" alt="about_image" class="spartan">
                         <!-- Add image transition to CSS-->
                         <p>
-                            I <strong>Robin Collins</strong> in High Halstow a small village on the Hoo Penisular, several miles from the once City of Rochester.
-                            I have been taking photographs professionally for over 25 years and embarked in website design when I didn't want to pay someone else what
-                            was extremly expensive in early 2005, it hasn't changed much in 2020 but the technologies are amazing and will boost a companies brand.
-                            I used to use Serif and Adobe Muse including templates on privately owned servers to speed up my efficiencey, however it became aparent width
-                            the suppoort for the software becoming obsolete and a decline in my clients I went back to the drawing board and embarked on a course as a full stack
-                            developer with Code Institute where I should be fully qualified high end Full Stack Developer. 
-                            I will be efficient in HTML5, CSS3, JavaScript, Python and more.
+                            I <strong>Robin Collins</strong> in High Halstow a small village on the Hoo Peninsular, several miles from the once City of Rochester.
+                             I have been taking photographs professionally for over 25 years and embarked in website design when I didn't want to pay someone else what was extremely expensive in early 2005, 
+                             it hasn't changed much in 2020 but the technologies are amazing and will boost a company's brand. I used to use Serif and Adobe Muse including templates on privately owned servers
+                             to speed up my efficiency, however it became apparent width the support for the software becoming obsolete and a decline in my clients I went back to the drawing board and embarked 
+                             on a course as a full stack developer with Code Institute where I should be fully qualified high end Full Stack Developer. I will be efficient in HTML5, CSS3, JavaScript, Python and more.
                         </p>
                     </div>
                 </div>
@@ -126,13 +129,13 @@
     </section>
     <Section class="container-fluid portfolio-background-image" id="portfolio">
         <div class="row row-table">
-            <div class="col-md-8 bg-color-three-reasons section-column">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 bg-color-three-reasons section-column">
                 <div class="row">
                     <div class="col">
-                        <h5>Portfolio</h5>
+                        <h4>Portfolio</h4>
 
                         <p>
-                            Here are some examples of my photography web and graphic design work.
+                            Here are just a handful of examples of my photography web and graphic design work.
                         </p>
 
                         <div>
@@ -202,9 +205,9 @@
     <!-- ALIGN TEXT FOR FORM TO MATCH PREVIOUS SECTIONS IE HOME, ABOUT AND PORTFOLIO-->
     <section class="container-fluid contact contact-background-image" id="contact">
         <div class="row bg-color-contact">
-            <div class="col-md-12 bg-color-three-reasons section-column">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 bg-color-three-reasons section-column">
                 <div class="col">
-                    <h5 class="contact-heading">Contact</h5>
+                    <h4 class="contact-heading">Contact</h4>
                     <!--CSS rules required-->
                     <h6>Do you require my service?</h6>
                     <div class="center-form">
@@ -236,7 +239,7 @@
                         <span class="sr-only"></span></a>
                 </p>
             </div>
-            
+
             <div class="col-sm-6">
                 <h6>Social</h6>
                 <ul class="list-inline social-links">
@@ -268,8 +271,8 @@
             </div>
         </div>
         <div class="col-md-12 copyright">
-                <h6>© 2020 Robin Collins - Full Stack Developer</h6>
-            </div>
+            <h6>© 2020 Robin Collins - Full Stack Developer</h6>
+        </div>
     </footer>
 </body>
 

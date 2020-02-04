@@ -42,8 +42,10 @@ Tutor support where great for little pointers that went along way
 
 ### Media.
 
-Photographs used are my own except for the image of myself on the About section which was taken by Spartan race.
+Photographs used are my own except for the image of myself on the About section which was taken by Spartan race but is me.
 Their logo is present on the image to credit them and promte them in its own right.
+
+
 
 ### Acknowledgments.
 
@@ -51,4 +53,4 @@ I acknowlege the code institute as did take a lot of inspiration from the previo
 assignment to help me. Therefore there will be simularities in the HTML and CSS. I kept mindful of trying to keep everything
 as much my own as physically possible with my abilities.
 
-My colour theme is if you haven't guessed inspired by Superman.
+The text section on the home page feaures simularities from w3 schools website descriping a full stack developer.

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Uncial+Antiqua: 100,200,300,400,500,600,700');
 
 /*    ------------------------Header information   */
 
@@ -26,8 +26,8 @@ header {
    margin-top: 6px; 
     color: #fff;
     letter-spacing: 10px;
-    padding-left: 30px;
-    text-align: center;
+    padding-left: 15px;
+    text-align: left;
     float: left;
 }  
 
@@ -36,94 +36,113 @@ header {
     font-weight: 100;
     font-size: 30px;
     margin-top: 6px;
-    /* margin-bottom: 20px; */
     color: #fff;
     letter-spacing: 10px;
-    padding-right: 30px;
-    text-align: center;
-    Float: Right;
+    padding-left: 15px;
+    text-align: left;
+    float: right; 
 }
 
-/*    ------------------------Navigation links   */
+/*    ------------------------Navigation Bar   */
 
-#home {
-    color:#392525;
+.navbar-dark .navbar-brand {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: -3px;
+    color: #fff;
+    text-shadow: 1px 1px 1px blue, 0 0 1px darkblue;
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+    color: #006cb3;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #006cb3;
+}
+
+.hvr-bounce-to-top::before { 
+    background-color: #d50000;
+    border-radius: 20%;
+}
+
+.nav-link.hvr-bounce-to-top::before .active>.nav-link {
+    background-color: #d50000;
 }
 
 #about {
-    color: #423434;
-}
+    padding: 130px;
+} 
 
 #portfolio {
-    color: #423434;
-}
-#contact {
-    color: #423434;
+    padding: 130px;
 }
 
-/*    ------------------------New Page Headings */
+#contact {
+    padding: 130px;
+}
+
+/*    ------------------------Navigation Bar font awesome icons  */ 
+
+i.fa.fa-home::before {
+    font-size: 16px;
+    padding: 3px;
+    color: #006cb3
+}
+
+i.fa.fa-address-card::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #006cb3
+}
+
+i.fa.fa-briefcase::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #006cb3
+}
+
+i.fa.fa-envelope:before {
+    font-size: 16px;
+    padding: 3px;
+     color: #006cb3
+}
+
+i.fa-download::before {
+    font-size: 16px;
+    padding: 3px;
+     color: #006cb3
+}
+
+/*    ------------------------Page Headings */
 
 h4 {
     line-height: 100px;
     text-align: center;
-    color: #423434;
-}
-
-/*    ------------------------ Old Navigation styles - Remove before submit   */
-
-h5 {
-    line-height: 100px;
-    text-align: center;
-}
-
-/*    ------------------------Navigation styles   */
-
-.ui-menu-color-home {
-    background-color: #ffc107;
     color:#006db3;
-    letter-spacing: 6px;
-    border-radius: 5%;
 }
 
+/*    ------------------------Page Headings that need to stand out */
+
+.about-background-image h4 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.contact-background-image h4 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
 /*    ------------------------Navigation logo image   */
 
 img.d-inline-block  {
-    height: 30px;
-    width: 30px;
-/*    ------------------------ Previous Navigation save for later project   */
-
+    height: 40px;
+    width: 40px;
+    padding: 6px;
 }
-/* old nav styles
-.ui-menu-color-about {
-    background-color: #ffc107;
-    color:#006db3;
-    letter-spacing: 6px;
-    border-radius: 5%;
-}
-
-.ui-menu-color-portfolio {
-    background-color:#ffc107;
-    color:#006db3;
-    letter-spacing: 6px;
-    border-radius: 5%;
-    }
-
-.ui-menu-color-contact {
-    background-color: #ffc107;
-    color:#006db3;
-    letter-spacing: 6px;
-    border-radius: 5%;
-    }
-
-.ui-menu-color-download {
-    background-color: #ffc107;
-    color:#006db3;
-    letter-spacing: 6px;
-    border-radius: 5%;
-} */
-
-.list-inline-item:not(:last-child)
-{
+/*
+.list-inline-item:not(:last-child) {
     margin:0%;
 }
 
@@ -170,7 +189,7 @@ menuitem span {
     font-weight: 300;
     letter-spacing: 2px;
 }
-
+*/
 
 /* Alternate navigation colours 30/01/2020 remove this comment and old navigation if successful - update .bg-light and .nav-links dont work */
 
@@ -190,21 +209,15 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
- /*   transition: all 3.5s ease-out;
-    -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out; */
 }
 
-.about-background-image {
+.about-background-image  {
     background: url("../images/roots-1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-  /*transition: all 3.5s ease-out;
-    -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out;
- }*/ }
+}
 
 
 .portfolio-background-image {
@@ -213,9 +226,6 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-  /* transition: all 3.5s ease-out;
-    -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out; */
  }
 
 .contact-background-image {
@@ -224,19 +234,13 @@ menuitem span {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-  /* transition: all 3.5s ease-out;
-    -moz-transition: all 3.5s ease-out;
-    -webkit-transition: all 3.5s ease-out;
- } */ }
-
+  }
 
 /*    ------------------------H4 page headings   */
 
 .page-titles {
     font-family: "Roboto" , sans-serif;
 }
-
-
 
 /*    ------------------------Footer   */
 
@@ -253,6 +257,17 @@ footer {
     position: -webkit-sticky;
     bottom: 0;
 }
+
+footer i.fa-download::before {
+    font-size: 22px;
+    padding: 3px;
+     color: #ffc107;
+}
+
+footer .cv-pdf i:hover::before {
+        color: #d50000;
+        }
+
 
 .copyright {
     text-align: center;
@@ -354,6 +369,8 @@ border-radius all added with no change   */
       font-family: "Roboto" , sans-serif;
   }
 
+/*    ------------------------ Portfolio Images   */
+
 img {
     width: 320px;
    /* border: 6px solid #006db3; */
@@ -366,7 +383,7 @@ img {
 
 body {
     font-family: "Roboto" , sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     z-index: 20;
     position: relative
 }
@@ -375,3 +392,4 @@ section#about p {
     background: gainsboro;
     padding: 6px;
 }
+

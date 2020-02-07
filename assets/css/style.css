@@ -5,8 +5,8 @@
 header {
     margin: 0;
     background-color: #006db3;
-    /*padding: 6px;*/
-    min-height: 100px;
+    min-height: 150px;
+    min-width: 900px;
     position: sticky;
     position: -webkit-sticky; 
     position: -moz-sticky;
@@ -172,6 +172,7 @@ img.d-inline-block  {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
+    min-width: 900px;
 }
 
 .contact-background-image {
@@ -180,6 +181,7 @@ img.d-inline-block  {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
+    min-width: 900px;
   }
 
 /*    ------------------------H4 page headings   */
@@ -194,6 +196,8 @@ footer {
     font-family: "Roboto" , sans-serif;
     font-size: 15px;
     text-align: center;
+    min-width: 900px;
+    min-height: 400px;
     margin: 0;
     background-color: #006db3;
     padding: 12px;
@@ -265,13 +269,12 @@ footer .cv-pdf i:hover::before {
 
     /*    ------------------------ Media Queries   */
 
-    @media(min-width: 992px) {
+    @media(min-width: 991px) {
         .center-form {
-     padding-top: 30px;
+     padding-top: 10px;
      min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-    }
     }
 
   .row-table {
@@ -330,4 +333,3 @@ section#about p {
     padding: 6px;
     
 }
-

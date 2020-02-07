@@ -6,7 +6,6 @@ header {
     margin: 0;
     background-color: #006db3;
     min-height: 150px;
-    min-width: 900px;
     position: sticky;
     position: -webkit-sticky; 
     position: -moz-sticky;
@@ -148,13 +147,12 @@ h6 {
 /*    ------------------------Page Headings that need to stand out */
 
 .about-background-image h4 {
-    color: ##006cb3;
+    color: #006cb3;
     text-shadow: 1px 1px 1px #000;
 }
 
 .contact-background-image h4 {
     color: #fff;
-    text-shadow: 1px 1px 1px #000;
 }
 /*    ------------------------Navigation logo image   */
 
@@ -172,7 +170,6 @@ img.d-inline-block  {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    min-width: 900px;
 }
 
 .contact-background-image {
@@ -181,7 +178,6 @@ img.d-inline-block  {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 1000px;
-    min-width: 900px;
   }
 
 /*    ------------------------H4 page headings   */
@@ -196,7 +192,6 @@ footer {
     font-family: "Roboto" , sans-serif;
     font-size: 15px;
     text-align: center;
-    min-width: 900px;
     min-height: 400px;
     margin: 0;
     background-color: #006db3;
@@ -254,7 +249,7 @@ footer .cv-pdf i:hover::before {
     }
 
     .center-form {
-        padding-top: auto;
+        
         margin: 0 auto;
         max-width: 70%;
         text-align: center;
@@ -275,6 +270,7 @@ footer .cv-pdf i:hover::before {
      min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
     }
 
   .row-table {
@@ -300,8 +296,6 @@ img {
 .spartan {
       float: left;
       padding: 6px;
-      padding-left: 6px;
-      padding-right: 6px;
       width: 700px;
       margin-left: 20px;
       position: relative;
@@ -330,6 +324,10 @@ section#home p {
 
 section#about p {
     background: gainsboro;
-    padding: 6px;
-    
+    padding: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-secondary.bg-warning.navbar.navbar-dark {
+    padding-top: 0%;
+    padding-bottom: 0%;
 }

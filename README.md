@@ -56,10 +56,59 @@ the various CSS elements that require amendment.
 In the early stages I found I would be taking two steps forward and one step back. Unfortunately, there were 
 even occasions where I take more coding steps backward rather than forward.
 
+I started using transitions with Background images and decided not to use them because the transition area so 
+large it didn’t transcend how I expected and even effected the text areas.
+
+I probably spent the longest period of time trying to fathom why the Burger Navigation style was so difficult I found 
+myself looking in the right place but getting it to work took a few extra nudges in the right direction from a tutor. 
+
+I have defiantly come to an understanding that there can come a point where the brain requires rest and a break can 
+make the world of difference to when It comes to grasping a concept or two.
+
+With my fast approaching my deadline for at least a day I was confused by a lack of positive responsive behaviour 
+on my mobile and tablet views when using the google inspect feature. As a stroke of luck, I solved this by suddenly 
+remembering col-xs (Bootstrap Extra small) references and thankfully I could relax as this solved my problem in this area. 
+
+Furthermore, I think this was helped I believe when I discovered an additional bracket had been deleted in error at some 
+stage within my media query.
+
 
 ### Deployment. 
 
-To be completed the evening 06/02/20 
+ I followed the course setting up the a GitHub account in October 2019 I cannot remember the process but it was very 
+ straight forward. In doing this I then linked it to my google browser short cut for GitPod. 
+
+I then once on Gitpod use the command using the workspace section of the screen to set up a new repository which allows 
+me to back up my work. I do this by typing in server language which is all I know it as at this stage of my project. 
+
+ git init  
+
+Is what is typed in first. I then proceed in adding folders on the right side of the workspace either right click with 
+the mouse and select new folder or go to file at the top of the page and click, file, then click new folder.
+
+An assets folder is devised in that folder additional folders are added CSS and images. I also added CV to store 
+my curriculum Vitae (C.V) and at the stages of completing this README file I added the design folder which holds the 
+wireframes design for this website.
+
+A file was made for the HTML5 index page and a CSS3 file which is stored into the CSS folder.
+
+Every time I did a Signiant amount of work or large change and generally at the end of a day I would commit my work 
+to my GitHub Repository.
+
+Using the commands as follows on the Workspace area:
+
+git status
+
+A status would be given.
+
+git add .
+
+Nothing appears to happen but every-time I didn’t use this particular command my git wound not commit.
+
+Next command would be:
+
+git commit -m “I would always add a comment hear describing alterations and additions”
+
 
 ### Credits. 
 

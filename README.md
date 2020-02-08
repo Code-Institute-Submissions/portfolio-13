@@ -72,6 +72,9 @@ remembering col-xs (Bootstrap Extra small) references and thankfully I could rel
 Furthermore, I think this was helped I believe when I discovered an additional bracket had been deleted in error at some 
 stage within my media query.
 
+What I have had issues with is I've had to clear Google Cache after almost every design alteration. This could result in me 
+thinking something is'nt working and I will go back now and again losing time. 
+
 
 ### Deployment. 
 

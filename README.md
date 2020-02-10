@@ -34,6 +34,9 @@ achieve this at this stage of the project so will save for another time.
 
 Other features for the future would be private galleries for viewing and ordering various services and payment zones 
 for contractual works.
+
+When I completed my website for assesment I was constantly thinking of ways to improve what I have I then remembered to add a favicon
+using my RNC Media logo and think small touches like this make all the difference to how much more professional a website looks.
  
 ### Technologies Used. 
 
@@ -132,6 +135,13 @@ There is a small paragraph to describe the role of a Full Stack Developer as tak
 
 (https://www.w3schools.com/whatis/whatis_fullstack.asp)
 
+The following link is to where I found information for the code to add the Favicon I have now subscribed to his page. Bootstrap 4 Basics Add A Favicon Site Icon by
+System 22 IT solutions.
+
+(https://www.youtube.com/watch?v=IYoPfoArE5M)
+
+
+
 #### Media. 
 
 Photographs used are my own except for the image of myself on the About section which was taken by Spartan race but is me. Their logo is present on the image to credit them and promote them. 
@@ -145,6 +155,8 @@ Photographs used are my own except for the image of myself on the About section 
 I’d like to acknowledge the code institute as did take a lot of inspiration from the previous assignment and used the previous resume assignment to help me however the website that is my complete version is completely different to what I started out with and thank fully still looks very similar to my original frameworks design. If there are similarities in the HTML and C.S.S I was mindful of trying to keep everything as much my own as physically possible with my limited but definitely expanding abilities. 
 
 The text section on the home page does feature similarities from w3 school’s website descripting the role of a full stack developer.
+
+Literature on (https://stackoverflow.com/) Stack Over flow also prove helpful. I wouldn’t generally get a whole or accurate solution but found it put me on a good path to further my research.
 
 Without sounding big headed I’d like to say I received personal inspiration from myself as I had hit a bit of a low point in my career and rely heavily on a huge amount of creativity and dug down deep and found a guiding force.
 

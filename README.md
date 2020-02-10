@@ -76,7 +76,18 @@ Furthermore, I think this was helped I believe when I discovered an additional b
 stage within my media query.
 
 What I have had issues with is I've had to clear Google Cache after almost every design alteration. This could result in me 
-thinking something is'nt working and I will go back now and again losing time. 
+thinking something is'nt working and I will go back now and again losing time.
+
+During the testing my most difficult problem came at the end when I couldn't get the Header, Navigation and Background images
+wouldn't display correctly on smaller devices. I at the stage of this have accepted I failed to fix this correctly from a developers
+point of view however visually I did achieve the look I required. However I am disapointed as I have worked hard on this assignment but
+felt perefection slip towards the end. I don't like defeat so it will definatlely be a priority to resolve this issue. Once I have been
+assessed. 
+
+I'm not sure if this had been made worse having to clear my google inspect cashe after every implimented change.
+
+At this stage I also had issues with the portfolio displaying two smaller images on the smaller displays to utilise space made available
+with the Bootstrap colomns but also proved to be difficult to execute. I managed it on medium sized screens with media quieries.
 
 
 ### Deployment. 
@@ -152,7 +163,9 @@ Photographs used are my own except for the image of myself on the About section 
 
 #### Acknowledgments.
 
-I’d like to acknowledge the code institute as did take a lot of inspiration from the previous assignment and used the previous resume assignment to help me however the website that is my complete version is completely different to what I started out with and thank fully still looks very similar to my original frameworks design. If there are similarities in the HTML and C.S.S I was mindful of trying to keep everything as much my own as physically possible with my limited but definitely expanding abilities. 
+I’d like to acknowledge the code institute as did take a lot of inspiration from the previous assignment and used the previous resume assignment to help me however the website that is my complete
+version is completely different to what I started out with and thank fully still looks very similar to my original frameworks design. If there are similarities in the HTML and C.S.S I was mindful 
+of trying to keep everything as much my own as physically possible with my limited but definitely expanding abilities. 
 
 The text section on the home page does feature similarities from w3 school’s website descripting the role of a full stack developer.
 
@@ -160,4 +173,4 @@ Literature on (https://stackoverflow.com/) Stack Over flow also prove helpful. I
 
 Without sounding big headed I’d like to say I received personal inspiration from myself as I had hit a bit of a low point in my career and rely heavily on a huge amount of creativity and dug down deep and found a guiding force.
 
-I’d like to thank my two mentors for their support and advice Brian Macharia and Akshat Garg. I’d like to further extend that to the tutors at the code institute.
+I’d like to thank my two mentors for their support and advice Brian Macharia and Akshat Garg. I’d like to further extend that to the majority of the tutors at the code institute.
